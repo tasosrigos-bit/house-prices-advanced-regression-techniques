@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "jupyter>=1.1.1",
+    "mizani>=0.14.4",
     "notebook>=7.5.6",
     "pandas>=3.0.3",
     "plotnine>=0.15.4",

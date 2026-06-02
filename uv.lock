@@ -391,6 +391,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "jupyter" },
+    { name = "mizani" },
     { name = "notebook" },
     { name = "pandas" },
     { name = "plotnine" },
@@ -399,6 +400,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "jupyter", specifier = ">=1.1.1" },
+    { name = "mizani", specifier = ">=0.14.4" },
     { name = "notebook", specifier = ">=7.5.6" },
     { name = "pandas", specifier = ">=3.0.3" },
     { name = "plotnine", specifier = ">=0.15.4" },
